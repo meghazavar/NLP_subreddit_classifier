@@ -23,32 +23,40 @@ their own communities.They are volunteers unlike admins who are paid employees o
 gatekeepers or sheriffs for their communities. Their set the tone for community, they can ban users, remove posts  
 when they are not in alignment with the community.
 
-###### THE PROBLEM :
+###### THE PROBLEM  & OBJECTIVE :
 With massive number of communities   and  newer redditors joinging , overlapping topic interest it is  not uncommon for people
 to accidently post  to a wrong subreddit. Moderators who are passionate voluteers for the reddit communities who
 day in day out read through these post to maintain the health of the subreddits among other things  also need to deals
 with simply wrong submissions in to the subreddit.
 
-###### OBJECTIVE
 The goal and hope with 'Lost Subreddit Classifier' is help the moderator community, by having a machine learning classifier
 classify the incoming submissions to verify if user had posted a submission to a appropriate subreddit and flag the 
 incorrect ones.
 
-### Classifier
+### Classifier Approach
 We can sketch out the data science process as follows:
 1. Define the problem.
-2. Obtain the data.
+2. getting data.
 3. Explore the data.
 4. Model the data.
 5. Evaluate the model.
 6. Answer the problem.
 
-######   Define the problem.
-The initial scope of the classifier is classify a submissions for two subreddits ,in to the appropriate subredit with
-80 percent accuracy of more.
+######   MVP
+The initial scope of the classifier is to classify a submissions for two subreddits ,in to the appropriate subredit with
+accuracy higher than baseline score. The two subreddits chosen are Travel and food.
 
-######  Obtain the data.
+######  Getting data.
+A sample of 10,0000 recent posts was obtained from Reddit API portal,using
 ![Pushshift.io](https://pushshift.io/api-parameters/) API Wrapper for reddit.com search endpoints.
+The data comprised of submission post titles which is headting of the post around 120 charcters and  subreddit name
+it self was the target y variable. 
+
+### Exploratory Analysis
+While every reddit post has several attributes  title , description ,author  etc.  There was a lot missing data except title.
+![col]()
+
+
 
 
 
