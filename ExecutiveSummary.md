@@ -63,16 +63,34 @@ The corpus was cleaned by converting all words to  lower case,reducing them to t
 
 The dataset was also partitioned in  to 80/20 split  where 20% of the data was held out for testing the model and so that test data and training data were similar in nature. 
 
-### Modeling the data
+### Modeling the data and results
 Following machine learning models where chosen  as canditates to run the data
  > Naive Bayes (Bernoulli , Multinomial)
+ 
  > K nearest Neighbor
+ 
  > Logistic regression
+ 
  > Support Vector Machine
  
- For the first iteration we started with simple model of each type and recorded the results
+ For the first iteration we started with simple model of each type and recorded the results. While all the models performed significantly well with 95 percent accuracy or higher. The two models which had highest score for the performance metrices were Naive bayes and Support machine vectors.
  ![results from 1st iteration](https://git.generalassemb.ly/mzavar/project_3/blob/master/results-pass-1.png)
  
+### Conclusion
+The results were promising as the model was simple and yet could accurately predict 97% percent of the time if a post belongs to a subreddit or not.  (accuracy)
+For every correct 100 sumissions model agreed with 97 of them. (Sensitivity)
+Similarly, for every 100 wrong messages that landed in the sub-reddit model could predicted 95 of them correctly.(Specificity)
+
+While it might be  expected as Travel and Food may not have a lot of overlapping words and classifier can do a pretty good job of putting them in the right buckets.
+
+### Recommendations and where to go from here?
+The NLP classifier is certainly suitable for solving the problem here. As we increased the number of sub-reddits , the drop in accuracy score  dropped by few points.
+
+Adding more sub- reddits and running this on larger dataset - would be the something I'd like to introduce to the model on how well model performs and start tuning it using the stop words,  no of word groupins (n grams) to further make this model
+more usable and production ready.
+
+
+
 
 
 
