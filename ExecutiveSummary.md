@@ -58,7 +58,22 @@ While every reddit post has several attributes  title , description ,author  etc
 
 We looked at the most frequently used words and most relevant words .
 ![most frequent words](https://git.generalassemb.ly/mzavar/project_3/blob/master/bag%20of%20words.png)
+
+The corpus was cleaned by converting all words to  lower case,reducing them to their stem forms and removing the common constructs words in English language from predictive perspective which will not  directly be applicatble to travel and food like( a, an, the , very , was when , and or)
+
+The dataset was also partitioned in  to 80/20 split  where 20% of the data was held out for testing the model and so that test data and training data were similar in nature. 
+
 ### Modeling the data
+Following machine learning models where chosen  as canditates to run the data
+ > Naive Bayes (Bernoulli , Multinomial)
+ > K nearest Neighbor
+ > Logistic regression
+ > Support Vector Machine
+ 
+ For the first iteration we started with simple model of each type and recorded the results
+ !(results from 1st iteration)(https://git.generalassemb.ly/mzavar/project_3/blob/master/results-pass-1.png)
+ 
+
 
 
 
