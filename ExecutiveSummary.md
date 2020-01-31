@@ -57,7 +57,7 @@ While every reddit post has several attributes  title , description ,author  etc
 ![col](https://git.generalassemb.ly/mzavar/project_3/blob/master/eda.png)
 
 We looked at the most frequently used words and most relevant words .
-[most frequent words](https://git.generalassemb.ly/mzavar/project_3/blob/master/bag%20of%20words.png)
+![most frequent words](https://git.generalassemb.ly/mzavar/project_3/blob/master/bag%20of%20words.png)
 ### Modeling the data
 
 
