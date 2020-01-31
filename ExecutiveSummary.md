@@ -71,7 +71,7 @@ Following machine learning models where chosen  as canditates to run the data
  > Support Vector Machine
  
  For the first iteration we started with simple model of each type and recorded the results
- !(results from 1st iteration)(https://git.generalassemb.ly/mzavar/project_3/blob/master/results-pass-1.png)
+ ![results from 1st iteration](https://git.generalassemb.ly/mzavar/project_3/blob/master/results-pass-1.png)
  
 
 
