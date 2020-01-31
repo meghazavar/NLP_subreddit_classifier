@@ -54,7 +54,7 @@ it self was the target y variable.
 
 ### Exploratory Analysis
 While every reddit post has several attributes  title , description ,author  etc.  There was a lot missing data except title.
-![col]()
+![col](https://git.generalassemb.ly/mzavar/project_3/blob/master/eda.png)
 
 
 
