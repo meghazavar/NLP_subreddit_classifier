@@ -1,8 +1,9 @@
- ![Lost Subreddit Classifier ](https://git.generalassemb.ly/mzavar/project_3/blob/master/wordcloud%20title.png),
-# Lost Subreddit Classifier
+ # Lost Subreddit Classifier
 > Author:Megha Zavar
 
-!
+
+ ![Lost Subreddit Classifier ](https://git.generalassemb.ly/mzavar/project_3/blob/master/wordcloud%20title.png),
+
 
 ### Summary
 ###### About Reddit
